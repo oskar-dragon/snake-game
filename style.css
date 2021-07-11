@@ -1,0 +1,38 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	background-color: #f2f2f2;
+	font-family: "Lato", sans-serif;
+}
+
+.container {
+	margin: 20px auto;
+	width: 200px;
+}
+
+.grid {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-cell {
+	width: 20px;
+	height: 20px;
+}
+
+.snake {
+	background: lightgrey;
+}
+
+.apple {
+	background: green;
+}
+
+
